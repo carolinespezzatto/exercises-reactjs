@@ -1,0 +1,70 @@
+body{
+  background-color: #777;
+}
+  
+.container{
+  background-color: #efefef;
+  border-radius: 15px;
+  border: 3px solid #e7e7e7;
+  overflow: hidden; 
+  position: relative; 
+  height: 550px;
+  width: 320px;
+  left: 450px;
+  top: 30px;
+}
+  
+.img{
+  height: calc(100% - 60px);
+  width: 100%;
+}
+  
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px; 
+  opacity: 60%;
+}
+  
+.btn--home{
+  background-image: url(images/home.svg);
+  width: 32px;
+  height: 30px;
+  border: none;
+  background-size: cover;
+  cursor: pointer;
+}
+  
+.btn--work{
+  background-image: url(images/briefcase.svg);
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-size: cover;
+  cursor: pointer;
+}
+  
+.btn--blog{
+  background-image: url(images/book-reader-solid.svg);
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-size: cover;
+  cursor: pointer;
+}
+  
+.btn--about{
+  background-image: url(images/users.svg);
+  width: 40px;
+  height: 30px;
+  border: none; 
+  background-size: cover;
+  cursor: pointer;
+}
+
+p{
+  margin-top: 30px;
+  font-size: 0.7rem;
+  font-family: fantasy;
+}
